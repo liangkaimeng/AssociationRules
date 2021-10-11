@@ -33,4 +33,17 @@ cumid51184|3|运动水壶
 baskets = product_table.groupby(key)[sale_product].apply(lambda product: product.tolist())
 baskets = baskets.tolist()
 ```
-* 2
+* 独热编码：将数据转为模型可接受的格式
+```python
+transaction = TransactionEncoder()
+baskets = transaction.fit_transform(baskets)
+df = pd.DataFrame(baskets, columns=transaction.columns_)
+```
+* 设置支持度求频繁项集
+```python
+frequent_itemsets = apriori(dataframe, min_support=0.01, use_colnames=use_colnames)
+```
+* 求关联规则,设置最小置信度为0.15
+```python
+rules = association_rules(frequent_itemsets, metric='confidence', min_threshold=0.15)
+```
