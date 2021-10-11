@@ -29,8 +29,8 @@ cumid51184|2|山地车水壶架
 cumid51184|3|运动水壶
 ## 具体实现
 * 将同一个订单进行合并，输出列表
-'''python
+```python
 baskets = product_table.groupby(key)[sale_product].apply(lambda product: product.tolist())
 baskets = baskets.tolist()
-'''
+```
 * 2
