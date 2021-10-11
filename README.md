@@ -21,9 +21,9 @@ $$Lift(X\Leftarrow{Y})=P(X|Y)/P(X)=Confidence(X\Leftarrow{Y})/P(X)$$
 ## 数据格式
     | OrderNumber | LineNumber |  Model  |
     | --------   | -----:   | :----: |
-    | cumid51178 | 1 |   山地英骑    |
-    | cumid51178 | 2 |   山地车水壶架    |
-    | cumid51178 | 3 |   运动水壶    |
-    | cumid51184 | 1 |   山地英骑    |
-    | cumid51184 | 2 |   hl山地外胎    |
-    | cumid51184 | 3 |   山地车内胎    |
+    | cumid51178 | $1 |   山地英骑    |
+    | cumid51178 | $2 |   山地车水壶架    |
+    | cumid51178 | $3 |   运动水壶    |
+    | cumid51184 | $1 |   山地英骑    |
+    | cumid51184 | $2 |   hl山地外胎    |
+    | cumid51184 | $3 |   山地车内胎    |
