@@ -9,3 +9,11 @@ $$Support(X,Y)=P(XY)=\frac{number(XY)}{num(ALLSamples})$$
 $$Confidence(X\Leftarrow{Y})=P(X|Y)=P(XY)/P(Y)$$
 * 提升度：表示含有Y的条件下，同时含有X的概率，与X总体发生的概率之比。
 $$Lift(X\Leftarrow{Y})=P(X|Y)/P(X)=Confidence(X\Leftarrow{Y})/P(X)$$
+
+## Apriori算法
+* 原理
+　　如果一个项集是频繁项集，则它的所有子集都是频繁项集；
+  　如果一个集合不是频繁项集，则它的所有父集（超集）都不是频繁项集。
+* 目标
+　　发现频繁项集：发现满足最小支持度的所有项集。
+  　发现关联规则：从频繁项集中提取所有高置信度的规则。
