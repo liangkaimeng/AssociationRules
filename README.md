@@ -19,8 +19,11 @@ $$Lift(X\Leftarrow{Y})=P(X|Y)/P(X)=Confidence(X\Leftarrow{Y})/P(X)$$
 发现关联规则：从频繁项集中提取所有高置信度的规则。  
 
 ## 数据格式
-学号|姓名|分数
+OrderNumber|LineNumber|Model
 -|:-:|-:
-小明|男|75
-小红|女|79
-小陆|男|92
+cumid51178|1|山地英骑
+cumid51178|2|山地车水壶架
+cumid51178|3|运动水壶
+cumid51184|1|山地英骑
+cumid51184|2|山地车水壶架
+cumid51184|3|运动水壶
